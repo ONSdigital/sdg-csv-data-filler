@@ -1,6 +1,6 @@
 # sdg-csv-data-filler
 
-The SDG CSV data filler is the first script in a pipeline to convert SDG data in CSV format, to CSVW format, which is a W3C Standard. 
+The SDG CSV data filler is the first script in a pipeline to convert SDG data in CSV format, to CSVW format, which is a [W3C Standard](https://www.w3.org/standards/). 
 
 The script will become part of pipeline which may be integrated into the build scripts for the [UK SDG site](https://sdgdata.gov.uk/). 
 
@@ -13,6 +13,11 @@ The (planned) functions are this script are as follows:
 2. In any of the disagregation columns, fill any blanks with "T"
 3. In any value column, fill any blanks with NaN, None, or Null (tbc)
 4. Output the edited data in CSV format to a folder called "out"
+
+## Related projects
+
+* [CSVlint](https://github.com/GSS-Cogs/csvlint.rb)
+* [Open SDG](https://open-sdg.org/)
 
 ## Licensing
 
