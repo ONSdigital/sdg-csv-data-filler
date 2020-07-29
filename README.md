@@ -4,7 +4,7 @@ The SDG CSV data filler is the first script in a pipeline to convert SDG data in
 
 The script will become part of pipeline which may be integrated into the build scripts for the [UK SDG site](https://sdgdata.gov.uk/). 
 
-Later it may be integrated into the build scripts for the Open SDG platform, meaning that countries and cities which use the platform may choose to have the CSVW export function on their site. 
+Later it may be integrated into the build scripts for the [Open SDG platform](https://open-sdg.org/), meaning that countries and cities which use the platform may choose to have the CSVW export function on their site. 
 
 ## Functions of the script
 
