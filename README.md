@@ -14,6 +14,19 @@ The (planned) functions are this script are as follows:
 3. In any value column, fill any blanks with NaN, None, or Null (tbc)
 4. Output the edited data in CSV format to a folder called "out"
 
+## Latest: Testing a proof of concept
+
+### Testing all the functions
+
+* find_csv_urls and csvs_to_pandas are tested in https://colab.research.google.com/drive/1McY5SRuVgnjPsZb1g-VFNHGo7RdDzVAK?usp=sharing as I wasn't able to run the url requests from an ONS machine.
+* proof_of_concept is used to bring all functions together for intial test on small dataset
+* csvsample_to_pandas used in place of csvs_to_pandas. A local path is used instead of a URL
+* csvsample_to_pandas accepts a percent (pct) argument to randomly sample a percentage of records from a csv to create a df
+* get_mapping_dicts tested to create dictionaries from yaml files
+* The structure for the yaml files is now laid out to work with this code
+* `df.fillna` works with the filler dictionary passed as the `value` parameter
+* `standardise_cell_values` seems to work (more rigorous testing needed). It takes any existing value and substitutes it. e.g. subsitituting 'males' with 'Male'. 
+
 ## Related projects
 
 * [CSVlint](https://github.com/GSS-Cogs/csvlint.rb)
