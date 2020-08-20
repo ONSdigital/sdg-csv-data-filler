@@ -1,3 +1,8 @@
+generic_overrides:
+  FILL_NA: Value_gap_filler_value
+  OldValue1: NewValue1
+  OldValue2: NewValue2
+  OldValue3: NewValue3
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-1-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
