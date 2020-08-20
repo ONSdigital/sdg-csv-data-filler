@@ -1,4 +1,10 @@
 import pandas as pd
+import requests
+import re
+import os
+from yaml import safe_load, dump
+from bs4 import BeautifulSoup as bs
+import random
 
 def get_mapping_dicts(path_to_yaml):
     """
@@ -118,9 +124,9 @@ def write_csv(df, out_path, filename):
 
     try:
         full_path = os.path.join(out_path, filename)
-        df.to_csv(csv_dir, index=False)
+        df.to_csv(full_path, index=False)
     except Exception as e:
-        extended_e = Exception("Error encountered when attempting csv write to csv_dir: ".format(csv_dir)) #from e
+        extended_e = Exception("Error encountered when attempting csv write to full_path: ".format(full_path)) #from e
         print(extended_e)
         return False
 
