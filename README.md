@@ -27,6 +27,10 @@ The (planned) functions are this script are as follows:
 * `df.fillna` works with the filler dictionary passed as the `value` parameter
 * `standardise_cell_values` seems to work (more rigorous testing needed). It takes any existing value and substitutes it. e.g. subsitituting 'males' with 'Male'. 
 
+### To do:
+- Use a Python-github library to get data from github instead of scraping
+  - suggested to try [PyGithub](https://pygithub.readthedocs.io/en/latest/introduction.html)
+
 ## Related projects
 
 * [CSVlint](https://github.com/GSS-Cogs/csvlint.rb)
