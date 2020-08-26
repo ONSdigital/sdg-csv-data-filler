@@ -6,22 +6,22 @@ from yaml import safe_load, dump
 from bs4 import BeautifulSoup as bs
 import random
 
-def get_mapping_dicts(path_to_yaml):
+def get_mapping_dicts(path_to_yaml, url):
     """
     Loads dictionaries for the gap filling and mapping of column names 
-    from locally stored .yaml files
+    from locally stored .yaml files. Returns only the dictionary for 
+    the specified dataset. The url is the unique identifier for the dataset.
     
         Parameters:
-            gap_filler_yaml (string): Path to the yaml file storing the values
-                to fill gaps with in each column
-            header_mapping_yaml (string): Path to the yaml file storing the 
-                names to change headers to for each column
+            path_to_yaml (string): Path to the yaml file storing the values
+                to override values with
+            url (string): The source url for the dataset which is a unique identifier
         Returns:
             dict: dict_from_yam
             
     """
     with open(path_to_yaml) as file:
-        dict_from_yam = safe_load(file)
+        dict_from_yam = safe_load(file)[url]
     
     return dict_from_yam
 
@@ -50,7 +50,7 @@ def find_csv_urls(url):
         yield ("https://raw.githubusercontent.com"+link)
 
 
-def csvs_to_pandas(url):
+def csvs_to_pandas(url_to_csv):
     """Provided with a URL of a file, the fucntion will check if the CSV
     is populated and if not empty return a Pandas dataframe of the CSV
         Parameters:
@@ -58,10 +58,23 @@ def csvs_to_pandas(url):
         Returns:
             pd.DataFrame: a Pandas dataframe of the CSV
     """
-    if "no data for this indicator yet" in str(bs(requests.get(url).text)):
+    if "no data for this indicator yet" in str(bs(requests.get(url_to_csv).text)):
         return None
     else:
-        return pd.read_csv(url)
+        return pd.read_csv(url_to_csv)
+
+def prevent_bad_replacement(overrides_dict, df):
+    """Checks that there is not any values equal to the placeholder-values which are used 
+        as keys in the overrides dict. If they did exist, this would cause a bad replacement.
+        It is very unlikely that this is needed, but just here as an extra safety step"""
+    place_holder_values = ['FILL_NA', 'OldValue1', 'OldValue2', 'OldValue3', 'to']
+    results_dict = {}
+    for search_value in place_holder_values:
+        if search_value in df.values:
+            results_dict[search_value] = True
+            raise Exception(f"Value {search_value} has been found in the dataframe")
+    return None
+
 
 def csvsample_to_pandas(path_to_file, pct=1.0):
     """A function to create a sample extract of a csv as a dataframe
@@ -134,8 +147,15 @@ def write_csv(df, out_path, filename):
 
 def delete_random_values(df, holes=20):
     """
-    Smashes holes in your dataframe to the approximate number that you
-    request (randint might choose the same cell twice)
+    Smashes holes (creates gaps) in your dataframe to the approximate number that you
+    request (randint might choose the same cell twice). This function is 
+    just for testing. 
+
+        Parameters:
+            df (pd.Dataframe): pd_df (pd.Dataframe): The pandas data frame of the 
+                in which you want gaps to be made
+        Returns: 
+            pd.Dataframe
     """
     for i in range(holes):
         row = random.randint(1, df.shape[0]-1)
