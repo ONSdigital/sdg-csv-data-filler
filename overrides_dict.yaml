@@ -9,5632 +9,4027 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-1
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-4-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Security:
     FILL_NA: Security_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Security
   Type of Documentation:
     FILL_NA: Type_of_Documentation_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Type_of_Documentation
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-1.csv:
   Cause of death:
     FILL_NA: Cause_of_death_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Cause_of_death
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-3.csv:
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-4.csv:
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Measure:
     FILL_NA: Measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Measure
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Children under 16 in the household:
     FILL_NA: Children_under_16_in_the_household_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Children_under_16_in_the_household
   Children under 6 in the household:
     FILL_NA: Children_under_6_in_the_household_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Children_under_6_in_the_household
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Food insecurity category:
     FILL_NA: Food_insecurity_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Food_insecurity_category
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Household income:
     FILL_NA: Household_income_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Household_income
   Household size:
     FILL_NA: Household_size_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Household_size
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Working Status:
     FILL_NA: Working_Status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Working_Status
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-2-2.csv:
   BMI:
     FILL_NA: BMI_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_BMI
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3-1.csv:
   Inputs:
     FILL_NA: Inputs_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Inputs
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Outputs:
     FILL_NA: Outputs_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Outputs
   Productivity:
     FILL_NA: Productivity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Productivity
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Risk of extinction category:
     FILL_NA: Risk_of_extinction_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Risk_of_extinction_category
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Death classification:
     FILL_NA: Death_classification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Death_classification
   Deprivation quintile:
     FILL_NA: Deprivation_quintile_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Deprivation_quintile
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_group
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Health board:
     FILL_NA: Health_board_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Health_board
   Number of previous live births:
     FILL_NA: Number_of_previous_live_births_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Number_of_previous_live_births
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Birth weight:
     FILL_NA: Birth_weight_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Birth_weight
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Health Board:
     FILL_NA: Health_Board_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Health_Board
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   Exposure category:
     FILL_NA: Exposure_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Exposure_category
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Ethnic Group:
     FILL_NA: Ethnic_Group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_Group
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-3.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   Fatality:
     FILL_NA: Fatality_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Fatality
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Malaria species:
     FILL_NA: Malaria_species_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Malaria_species
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Region of travel:
     FILL_NA: Region_of_travel_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region_of_travel
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-4.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-5.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region of travel:
     FILL_NA: Region_of_travel_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region_of_travel
   Type of Neglected Tropical Disease (NTD):
     FILL_NA: Type_of_Neglected_Tropical_Disease_(NTD)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Type_of_Neglected_Tropical_Disease_(NTD)
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Chronic respiratory disease type:
     FILL_NA: Chronic_respiratory_disease_type_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Chronic_respiratory_disease_type
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Type of disease:
     FILL_NA: Type_of_disease_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Type_of_disease
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-5-2.csv:
   Beverage:
     FILL_NA: Beverage_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Beverage
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Contraceptive method:
     FILL_NA: Contraceptive_method_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Contraceptive_method
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Types of contraception:
     FILL_NA: Types_of_contraception_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Types_of_contraception
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-8-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Health product or service:
     FILL_NA: Health_product_or_service_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Health_product_or_service
   Health product or service category:
     FILL_NA: Health_product_or_service_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Health_product_or_service_category
   Health product or service sub-category:
     FILL_NA: Health_product_or_service_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Health_product_or_service_sub-category
   Socio-economic classification:
     FILL_NA: Socio-economic_classification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Socio-economic_classification
   Tenure category:
     FILL_NA: Tenure_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tenure_category
   Tenure sub-category:
     FILL_NA: Tenure_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tenure_sub-category
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-1.csv:
   County:
     FILL_NA: County_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_County
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-3.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unintentional poisoning category:
     FILL_NA: Unintentional_poisoning_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unintentional_poisoning_category
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-1-1.csv:
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_group
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   Free School Meals:
     FILL_NA: Free_School_Meals_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Free_School_Meals
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Special Educational Needs:
     FILL_NA: Special_Educational_Needs_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Special_Educational_Needs
   Subject:
     FILL_NA: Subject_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Subject
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2-1.csv:
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_group
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   Free School Meals:
     FILL_NA: Free_School_Meals_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Free_School_Meals
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Learning category:
     FILL_NA: Learning_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Learning_category
   Learning sub-category (higher):
     FILL_NA: Learning_sub-category_(higher)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Learning_sub-category_(higher)
   Learning sub-category (lower):
     FILL_NA: Learning_sub-category_(lower)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Learning_sub-category_(lower)
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Special educational needs:
     FILL_NA: Special_educational_needs_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Special_educational_needs
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Deprivation quantile:
     FILL_NA: Deprivation_quantile_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Deprivation_quantile
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   Education category:
     FILL_NA: Education_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Education_category
   Employment status:
     FILL_NA: Employment_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Employment_status
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Highest qualification:
     FILL_NA: Highest_qualification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Highest_qualification
   Household income:
     FILL_NA: Household_income_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Household_income
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-4-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Skill:
     FILL_NA: Skill_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Skill
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-5-1.csv:
   Education indicator:
     FILL_NA: Education_indicator_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Education_indicator
   Educational measure:
     FILL_NA: Educational_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Educational_measure
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-6-1.csv:
   Educational subject:
     FILL_NA: Educational_subject_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Educational_subject
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-7-1.csv:
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-1-1.csv:
   Area of law:
     FILL_NA: Area_of_law_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Area_of_law
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2-1.csv:
   Abuse sub-category:
     FILL_NA: Abuse_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Abuse_sub-category
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_group
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Highest qualification:
     FILL_NA: Highest_qualification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Highest_qualification
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Type of partner abuse:
     FILL_NA: Type_of_partner_abuse_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Type_of_partner_abuse
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2-2.csv:
   Abuse type:
     FILL_NA: Abuse_type_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Abuse_type
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnic_group
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   Frequency of sexual assault:
     FILL_NA: Frequency_of_sexual_assault_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Frequency_of_sexual_assault
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Highest qualification:
     FILL_NA: Highest_qualification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Highest_qualification
   Household income:
     FILL_NA: Household_income_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Household_income
   Migratory status:
     FILL_NA: Migratory_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Migratory_status
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Place of occurrence:
     FILL_NA: Place_of_occurrence_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Place_of_occurrence
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Relationship to perpetrator:
     FILL_NA: Relationship_to_perpetrator_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Relationship_to_perpetrator
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3-2.csv:
   Age at which FGM took place:
     FILL_NA: Age_at_which_FGM_took_place_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age_at_which_FGM_took_place
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   FGM type:
     FILL_NA: FGM_type_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_FGM_type
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-4-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Main method of contraception:
     FILL_NA: Main_method_of_contraception_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Main_method_of_contraception
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6-2.csv:
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-1-1.csv:
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Treatment connection:
     FILL_NA: Treatment_connection_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Treatment_connection
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Water treatment category:
     FILL_NA: Water_treatment_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Water_treatment_category
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-3-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Status classification:
     FILL_NA: Status_classification_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Status_classification
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Water body category:
     FILL_NA: Water_body_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Water_body_category
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-4-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Water resources management category:
     FILL_NA: Water_resources_management_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Water_resources_management_category
   Water resources management sub-category:
     FILL_NA: Water_resources_management_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Water_resources_management_sub-category
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Urbanisation:
     FILL_NA: Urbanisation_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Urbanisation
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-3-1.csv:
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_sector
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-1-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-10-1.csv:
   Banking service:
     FILL_NA: Banking_service_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Banking_service
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Urban or rural:
     FILL_NA: Urban_or_rural_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Urban_or_rural
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-10-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Bank account category:
     FILL_NA: Bank_account_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Bank_account_category
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-3-1.csv:
   Gender:
     FILL_NA: Gender_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Gender
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4-1.csv:
   Material category:
     FILL_NA: Material_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Material_category
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4-2.csv:
   Material category:
     FILL_NA: Material_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Material_category
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Equality Act Disabled/ Not Equality Act Disabled:
     FILL_NA: Equality_Act_Disabled/_Not_Equality_Act_Disabled_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Equality_Act_Disabled/_Not_Equality_Act_Disabled
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Occupation:
     FILL_NA: Occupation_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Occupation
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Working Pattern:
     FILL_NA: Working_Pattern_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Working_Pattern
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Nationality:
     FILL_NA: Nationality_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Nationality
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-8-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_sector
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Occupation:
     FILL_NA: Occupation_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Occupation
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Product:
     FILL_NA: Product_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Product
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Tourism sector:
     FILL_NA: Tourism_sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tourism_sector
   Tourism sub-sector (lower):
     FILL_NA: Tourism_sub-sector_(lower)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tourism_sub-sector_(lower)
   Tourism sub-sector (middle):
     FILL_NA: Tourism_sub-sector_(middle)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tourism_sub-sector_(middle)
   Tourism sub-sector (upper):
     FILL_NA: Tourism_sub-sector_(upper)_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Tourism_sub-sector_(upper)
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Local Authority:
     FILL_NA: Local_Authority_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Local_Authority
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Road category:
     FILL_NA: Road_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Road_category
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1-2.csv:
   Flight category:
     FILL_NA: Flight_category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Flight_category
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2-1.csv:
   Industry higher sub-category:
     FILL_NA: Industry_higher_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_higher_sub-category
   Industry lower sub-category:
     FILL_NA: Industry_lower_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_lower_sub-category
   Industry middle sub-category:
     FILL_NA: Industry_middle_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_middle_sub-category
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   Ethnicity:
     FILL_NA: Ethnicity_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Ethnicity
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Nationality:
     FILL_NA: Nationality_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Nationality
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-3-1.csv:
   Industry higher sub-category:
     FILL_NA: Industry_higher_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_higher_sub-category
   Industry lower sub-category:
     FILL_NA: Industry_lower_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_lower_sub-category
   Industry middle sub-category:
     FILL_NA: Industry_middle_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_middle_sub-category
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_sector
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-4-1.csv:
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Industry_sector
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Performing/Funding:
     FILL_NA: Performing/Funding_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Performing/Funding
   Product group:
     FILL_NA: Product_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Product_group
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sector:
     FILL_NA: Sector_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sector
   Source:
     FILL_NA: Source_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Source
   Source sub-category:
     FILL_NA: Source_sub-category_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Source_sub-category
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Age
   Country of birth:
     FILL_NA: Country_of_birth_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Country_of_birth
   Disability status:
     FILL_NA: Disability_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Disability_status
   GeoCode:
     FILL_NA: GeoCode_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_GeoCode
   Nationality:
     FILL_NA: Nationality_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Nationality
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Observation_status
   Region:
     FILL_NA: Region_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Region
   Sex:
     FILL_NA: Sex_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Sex
   Unit measure:
     FILL_NA: Unit_measure_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_measure
   Unit multiplier:
     FILL_NA: Unit_multiplier_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Unit_multiplier
   Units:
     FILL_NA: Units_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Units
   Year:
     FILL_NA: Year_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
     OldValue3: NewValue3
-    fill_gaps: true
-    fix_headers: false
-    standardise_cells: true
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
