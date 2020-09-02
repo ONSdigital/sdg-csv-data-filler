@@ -18,6 +18,7 @@ The script functions as follows:
 4. It outputs the transformed data in CSV format to a folder called "out"
 
 ### To do:
+- Code the main 'entry point' function
 - Code for a fix_headers function.
 - Code unit tests for each function in modules.py
 - Use a Python-github library to get data from github instead of scraping
