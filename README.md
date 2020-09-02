@@ -11,7 +11,7 @@ Later it may be integrated into the build scripts for the [Open SDG platform](ht
 The script functions as follows:
 1. It scrapes the UK SDG [data repository of the SDG site](https://github.com/ONSdigital/sdg-data) for links to CSV files 
 2. Downloads the CSV data from the URL.
-3. It checks settings in the [overrides yaml file](https://github.com/jwestw/sdg-csv-data-filler/blob/master/overrides_dict.yaml)makes 3 different data transformations unique to any dataset and to each column as follows:
+3. It checks settings in the [overrides yaml file](https://github.com/jwestw/sdg-csv-data-filler/blob/master/overrides_dict.yaml) makes 3 different data transformations unique to any dataset and to each column as follows:
   - If parameter 'fill_gaps' is True for the data set it will fill any gaps, `nan`, `NaN` or `Null` values with the gap filler value for that column  
   - If parameter 'fix_headers' is True it will standardise the headers by replacement. This is currently not used, but may need to be in the future. It is currently set to False
   - if parameter 'standardise_cells'is True it will replace any non-standard values specified, and replace them with a standard value, e.g. it may replace 'male', 'Males' and 'M' with the standard value 'Male'.
