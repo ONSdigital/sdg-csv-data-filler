@@ -8,26 +8,18 @@ Later it may be integrated into the build scripts for the [Open SDG platform](ht
 
 ## Functions of the script
 
-The (planned) functions are this script are as follows:
-1. Download the CSV data from the [data repository of the SDG site](https://github.com/ONSdigital/sdg-data).
-2. In any of the disagregation columns, fill any blanks with "T"
-3. In any value column, fill any blanks with NaN, None, or Null (tbc)
-4. Output the edited data in CSV format to a folder called "out"
-
-## Latest: Testing a proof of concept
-
-### Testing all the functions
-
-* find_csv_urls and csvs_to_pandas are tested in https://colab.research.google.com/drive/1McY5SRuVgnjPsZb1g-VFNHGo7RdDzVAK?usp=sharing as I wasn't able to run the url requests from an ONS machine.
-* proof_of_concept is used to bring all functions together for intial test on small dataset
-* csvsample_to_pandas used in place of csvs_to_pandas. A local path is used instead of a URL
-* csvsample_to_pandas accepts a percent (pct) argument to randomly sample a percentage of records from a csv to create a df
-* get_mapping_dicts tested to create dictionaries from yaml files
-* The structure for the yaml files is now laid out to work with this code
-* `df.fillna` works with the filler dictionary passed as the `value` parameter
-* `standardise_cell_values` seems to work (more rigorous testing needed). It takes any existing value and substitutes it. e.g. subsitituting 'males' with 'Male'. 
+The script functions as follows:
+1. It scrapes the UK SDG [data repository of the SDG site](https://github.com/ONSdigital/sdg-data) for links to CSV files 
+2. Downloads the CSV data from the URL.
+3. It checks settings in the [overrides yaml file](https://github.com/jwestw/sdg-csv-data-filler/blob/master/overrides_dict.yaml)makes 3 different data transformations unique to any dataset and to each column as follows:
+  - If parameter 'fill_gaps' is True for the data set it will fill any gaps, `nan`, `NaN` or `Null` values with the gap filler value for that column  
+  - If parameter 'fix_headers' is True it will standardise the headers by replacement. This is currently not used, but may need to be in the future. It is currently set to False
+  - if parameter 'standardise_cells'is True it will replace any non-standard values specified, and replace them with a standard value, e.g. it may replace 'male', 'Males' and 'M' with the standard value 'Male'.
+4. It outputs the transformed data in CSV format to a folder called "out"
 
 ### To do:
+- Code for a fix_headers function.
+- Code unit tests for each function in modules.py
 - Use a Python-github library to get data from github instead of scraping
   - suggested to try [PyGithub](https://pygithub.readthedocs.io/en/latest/introduction.html)
 
