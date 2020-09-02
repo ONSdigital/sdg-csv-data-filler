@@ -28,6 +28,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -65,6 +68,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -102,6 +108,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-4-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -139,6 +148,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-1.csv:
   Cause of death:
     FILL_NA: Cause_of_death_gap_filler_value
@@ -194,6 +206,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-3.csv:
   Year:
     FILL_NA: Year_gap_filler_value
@@ -201,6 +216,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5-4.csv:
   Year:
     FILL_NA: Year_gap_filler_value
@@ -208,6 +226,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -251,6 +272,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -336,6 +360,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-2-2.csv:
   BMI:
     FILL_NA: BMI_gap_filler_value
@@ -391,6 +418,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3-1.csv:
   Inputs:
     FILL_NA: Inputs_gap_filler_value
@@ -434,6 +464,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -465,6 +498,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -490,6 +526,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -521,6 +560,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_2-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -564,6 +606,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -625,6 +670,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -668,6 +716,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -735,6 +786,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -796,6 +850,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -851,6 +908,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-3.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -942,6 +1002,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-4.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -991,6 +1054,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3-5.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -1040,6 +1106,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1107,6 +1176,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1162,6 +1234,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-5-2.csv:
   Beverage:
     FILL_NA: Beverage_gap_filler_value
@@ -1193,6 +1268,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1248,6 +1326,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-6
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1303,6 +1384,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1346,6 +1430,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-7
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-8-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1401,6 +1488,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-8
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-1.csv:
   County:
     FILL_NA: County_gap_filler_value
@@ -1450,6 +1540,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -1493,6 +1586,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9-3.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1554,6 +1650,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-9
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-1-1.csv:
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
@@ -1639,6 +1738,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2-1.csv:
   Ethnic group:
     FILL_NA: Ethnic_group_gap_filler_value
@@ -1730,6 +1832,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1773,6 +1878,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1864,6 +1972,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-4-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -1913,6 +2024,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-5-1.csv:
   Education indicator:
     FILL_NA: Education_indicator_gap_filler_value
@@ -1938,6 +2052,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-6-1.csv:
   Educational subject:
     FILL_NA: Educational_subject_gap_filler_value
@@ -1975,6 +2092,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-6
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-7-1.csv:
   Year:
     FILL_NA: Year_gap_filler_value
@@ -1982,6 +2102,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_4-7
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-1-1.csv:
   Area of law:
     FILL_NA: Area_of_law_gap_filler_value
@@ -2013,6 +2136,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2-1.csv:
   Abuse sub-category:
     FILL_NA: Abuse_sub-category_gap_filler_value
@@ -2098,6 +2224,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2-2.csv:
   Abuse type:
     FILL_NA: Abuse_type_gap_filler_value
@@ -2201,6 +2330,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -2232,6 +2364,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3-2.csv:
   Age at which FGM took place:
     FILL_NA: Age_at_which_FGM_took_place_gap_filler_value
@@ -2293,6 +2428,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-4-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2324,6 +2462,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2355,6 +2496,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -2404,6 +2548,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -2441,6 +2588,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6-2.csv:
   Year:
     FILL_NA: Year_gap_filler_value
@@ -2448,6 +2598,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_5-6
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-1-1.csv:
   Year:
     FILL_NA: Year_gap_filler_value
@@ -2455,6 +2608,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2492,6 +2648,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-3-2.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -2541,6 +2700,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-4-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2566,6 +2728,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2603,6 +2768,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2628,6 +2796,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_6-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2659,6 +2830,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2684,6 +2858,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2709,6 +2886,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-3-1.csv:
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
@@ -2740,6 +2920,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_7-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-1-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2765,6 +2948,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-10-1.csv:
   Banking service:
     FILL_NA: Banking_service_gap_filler_value
@@ -2826,6 +3012,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-10-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -2869,6 +3058,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-2-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -2894,6 +3086,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-3-1.csv:
   Gender:
     FILL_NA: Gender_gap_filler_value
@@ -2937,6 +3132,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4-1.csv:
   Material category:
     FILL_NA: Material_category_gap_filler_value
@@ -2974,6 +3172,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4-2.csv:
   Material category:
     FILL_NA: Material_category_gap_filler_value
@@ -3011,6 +3212,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3090,6 +3294,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3169,6 +3376,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-6-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3212,6 +3422,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-6
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-8-1.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3285,6 +3498,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-8
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9-1.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -3322,6 +3538,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9-2.csv:
   Observation status:
     FILL_NA: Observation_status_gap_filler_value
@@ -3371,6 +3590,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_8-9
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -3420,6 +3642,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1-2.csv:
   Flight category:
     FILL_NA: Flight_category_gap_filler_value
@@ -3457,6 +3682,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2-1.csv:
   Industry higher sub-category:
     FILL_NA: Industry_higher_sub-category_gap_filler_value
@@ -3506,6 +3734,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3561,6 +3792,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-2
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-3-1.csv:
   Industry higher sub-category:
     FILL_NA: Industry_higher_sub-category_gap_filler_value
@@ -3610,6 +3844,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-3
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-4-1.csv:
   Industry sector:
     FILL_NA: Industry_sector_gap_filler_value
@@ -3641,6 +3878,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5-1.csv:
   Country:
     FILL_NA: Country_gap_filler_value
@@ -3714,6 +3954,9 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5-2.csv:
   Age:
     FILL_NA: Age_gap_filler_value
@@ -3787,3 +4030,6 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Year
+  fill_gaps: true
+  fix_headers: false
+  standardise_cells: true
