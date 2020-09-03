@@ -76,25 +76,6 @@ def prevent_bad_replacement(overrides_dict, df):
     return None
 
 
-def csvsample_to_pandas(path_to_file, pct=1.0):
-    """A function to create a sample extract of a csv as a dataframe
-    
-        Parameters:
-            path_to_file (string): full path to csv file
-            p (float): decimal amount of lines to extract
-            
-        Returns:
-            pd.Dataframe
-            """
-    p = pct/100  
-    # keep the header, then take only 1% of lines
-    # if random from [0,1] interval is greater than 0.01 the row will be skipped
-    df = pd.read_csv(
-             path_to_file,
-             header=0,
-             skiprows=lambda i: i>0 and random.random() > p)
-    return df
-
 def fill_gaps(df, gap_filler_dict):
     """
     Given a Pandas dataframe and a dictionary containing the column names
@@ -145,7 +126,65 @@ def write_csv(df, out_path, filename):
 
     return status
 
-def delete_random_values(df, holes=20):
+def override_writer(df, overrides_dict):
+    """Takes the data frame and makes column-specific replacements or overrides. 
+        If fix_headers is True (False is default), it will change the headers to name in the overides dict. 
+        If standardise_cells is True (default), it will search for the value to be replaced and if found
+        the value will be replaced. If fill_gaps is True (default) it will fill any gaps with the replacement
+        value. 
+        
+        Parameters:
+            df (pd.Dataframe): dataframe to be processed
+            overrides_dict (dict): The overrides dictionary specific to the dataset being processed
+            
+        Returns:
+            pd.Dataframe: complete with requested value overrides 
+    """
+    fix_headers = overrides_dict['fix_headers']
+    standardise_cells = overrides_dict['standardise_cells']
+    fill_gaps = overrides_dict['fill_gaps']
+    if fix_headers:
+        #not used at the moment
+        pass
+    if standardise_cells:
+        for column in df.columns:
+            if column in ['value','Value']: 
+                continue #skipping because Value is never a key in the dict
+            orig_dtype = str(df[column].dtype)
+            df[column] = df[column].astype(str)
+            df[column] = df[column].replace(to_replace=overrides_dict[column])
+            df[column] = df[column].astype(orig_dtype)
+    if fill_gaps:
+        for column in df.columns:
+            if column in ['value','Value']: 
+                continue #skipping because Value is never a key in the dict
+#             import ipdb; ipdb.set_trace()
+            df[column].replace('nan',nan, inplace=True) #replacing string 'nan' with numpy.nan
+            df[column].fillna(
+                value=overrides_dict[column]['FILL_NA'],
+                inplace=True)
+    return df
+
+def csvsample_to_pandas(path_to_file, pct=1.0): #for testing purposes only
+    """A function to create a sample extract of a csv as a dataframe
+    
+        Parameters:
+            path_to_file (string): full path to csv file
+            p (float): decimal amount of lines to extract
+            
+        Returns:
+            pd.Dataframe
+            """
+    p = pct/100  
+    # keep the header, then take only 1% of lines
+    # if random from [0,1] interval is greater than 0.01 the row will be skipped
+    df = pd.read_csv(
+             path_to_file,
+             header=0,
+             skiprows=lambda i: i>0 and random.random() > p)
+    return df
+
+def delete_random_values(df, holes=20): #for testing purposes only
     """
     Smashes holes (creates gaps) in your dataframe to the approximate number that you
     request (randint might choose the same cell twice). This function is 
@@ -162,3 +201,6 @@ def delete_random_values(df, holes=20):
         col = random.randint(0, df.shape[1]-1)
         df.iloc[row, col] = float('nan')
     return df
+
+r = requests.get('https://www.python.org')  
+print(r.status_code) 
