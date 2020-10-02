@@ -5,12 +5,15 @@ import os
 from yaml import safe_load, dump
 from bs4 import BeautifulSoup as bs
 import random
+import numpy as np
 
 def get_mapping_dicts(path_to_yaml, url):
     """
     Loads dictionaries for the gap filling and mapping of column names 
     from locally stored .yaml files. Returns only the dictionary for 
-    the specified dataset. The url is the unique identifier for the dataset.
+    the specified dataset as the url is the unique identifier for the dataset.
+    This unique identifier is used as a key on the returned dictionary.
+    If the unique identifier (key) does not exist, `none` is returned. 
     
         Parameters:
             path_to_yaml (string): Path to the yaml file storing the values
@@ -21,8 +24,10 @@ def get_mapping_dicts(path_to_yaml, url):
             
     """
     with open(path_to_yaml) as file:
-        dict_from_yam = safe_load(file)[url]
-    
+        dict_from_yam = safe_load(file)
+        if url not in dict_from_yam.keys():
+            print (f"{url} not in dictionary")
+        dict_from_yam = dict_from_yam.get(url)
     return dict_from_yam
 
 
@@ -42,7 +47,6 @@ def find_csv_urls(url):
     csv_link_pattern = r"\/ONSdigital\/sdg-data\/blob\/develop\/data\/indicator_\d-\d{1,2}-\d{1,2}\.csv"
     to_repl_pattern = r"\/sdg-data\/blob\/develop"
     replacement_pattern = "/sdg-data/develop"
-    list_of_links = []
     attrs={'href': re.compile(csv_link_pattern)}
     for link in soup.findAll('a', attrs=attrs):
         link = link.get('href')
@@ -138,8 +142,8 @@ def write_csv(df, out_path, filename):
     try:
         full_path = os.path.join(out_path, filename)
         df.to_csv(full_path, index=False)
-    except Exception as e:
-        extended_e = Exception("Error encountered when attempting csv write to full_path: ".format(full_path)) #from e
+    except Exception:
+        extended_e = Exception(f"Error encountered when attempting csv write to {full_path}: ") #from e
         print(extended_e)
         return False
 
@@ -161,4 +165,43 @@ def delete_random_values(df, holes=20):
         row = random.randint(1, df.shape[0]-1)
         col = random.randint(0, df.shape[1]-1)
         df.iloc[row, col] = float('nan')
+    return df
+
+def override_writer(df, overrides_dict):
+    """Takes the data frame and makes column-specific replacements or overrides. 
+        If fix_headers is True (False is default), it will change the headers to name in the overides dict. 
+        If standardise_cells is True (default), it will search for the value to be replaced and if found
+        the value will be replaced. If fill_gaps is True (default) it will fill any gaps with the replacement
+        value. 
+        
+        Parameters:
+            df (pd.Dataframe): dataframe to be processed
+            overrides_dict (dict): The overrides dictionary specific to the dataset being processed
+            
+        Returns:
+            pd.Dataframe: complete with requested value overrides 
+    """
+    fix_headers = overrides_dict['fix_headers']
+    standardise_cells = overrides_dict['standardise_cells']
+    fill_gaps = overrides_dict['fill_gaps']
+    if fix_headers:
+        #not used at the moment
+        pass
+    if standardise_cells:
+        for column in df.columns:
+            if column in ['value','Value']: 
+                continue #skipping because Value is never a key in the dict
+            orig_dtype = str(df[column].dtype)
+            df[column] = df[column].astype(str)
+            df[column] = df[column].replace(to_replace=overrides_dict[column])
+            df[column] = df[column].astype(orig_dtype)
+    if fill_gaps:
+        for column in df.columns:
+            if column in ['value','Value']: 
+                continue #skipping because Value is never a key in the dict
+#             import ipdb; ipdb.set_trace()
+            df[column].replace('nan', np.nan, inplace=True) #replacing string 'nan' with numpy.nan
+            df[column].fillna(
+                value=overrides_dict[column]['FILL_NA'],
+                inplace=True)
     return df
