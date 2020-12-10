@@ -62,5 +62,5 @@ def entry_point(data_url):
 
     return results
 
-if __name__ == __main__:
+if __name__ == "__main__":
     results = entry_point(data_url=remote_data_url)
