@@ -124,7 +124,7 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-4
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Security
-  Type of Documentation:
+  Type of documentation:
     FILL_NA: Type_of_Documentation_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
@@ -4033,6 +4033,18 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_9-5
   fill_gaps: true
   fix_headers: false
   standardise_cells: true
-https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-3-1.csv 
+https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-3-1.csv:
+  stand_in:
+    FILL_NA: stand_in_gap_filler_value
+    OldValue1: NewValue1
+    OldValue2: NewValue2
+    OldValue3: NewValue3
+    to: correct_header_for_Age 
 
-https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-3-1.csv 
+https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_1-4-1.csv:
+  stand_in:
+    FILL_NA: stand_in_gap_filler_value
+    OldValue1: NewValue1
+    OldValue2: NewValue2
+    OldValue3: NewValue3
+    to: correct_header_for_Age

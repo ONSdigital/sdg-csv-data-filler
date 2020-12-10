@@ -6,6 +6,13 @@ from yaml import safe_load, dump
 from bs4 import BeautifulSoup as bs
 import random
 import numpy as np
+import logging
+
+# Gets or creates a logger
+logger = logging.getLogger(__name__)  
+
+# set log level
+logger.setLevel(logging.DEBUG)
 
 def get_mapping_dicts(path_to_yaml, url):
     """
@@ -191,9 +198,16 @@ def override_writer(df, overrides_dict):
         for column in df.columns:
             if column in ['value','Value']: 
                 continue #skipping because Value is never a key in the dict
+            # Replacements have to be done as strings, so casting as string
             orig_dtype = str(df[column].dtype)
             df[column] = df[column].astype(str)
-            df[column] = df[column].replace(to_replace=overrides_dict[column])
+            try:
+                df[column] = df[column].replace(to_replace=overrides_dict[column])
+            except Exception as e:
+                logger.debug(f"""{e}
+                df cols = {list(df.columns)}
+                dict keys = {list(overrides_dict.keys())}""")
+            # casting back to the original data type
             df[column] = df[column].astype(orig_dtype)
     if fill_gaps:
         for column in df.columns:

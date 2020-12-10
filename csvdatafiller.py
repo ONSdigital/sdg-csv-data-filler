@@ -12,8 +12,24 @@ from yaml import safe_load, dump
 from bs4 import BeautifulSoup as bs
 import random
 from modules import prevent_bad_replacement, delete_random_values, write_csv, standardise_cell_values, fill_gaps, csvs_to_pandas, find_csv_urls, get_mapping_dicts, override_writer
+import logging
+
+# Gets or creates a logger
+logger = logging.getLogger(__name__)  
+
+# set log level
+logger.setLevel(logging.DEBUG)
+
+# define file handler and set formatter
+file_handler = logging.FileHandler('logfile.log')
+formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
+file_handler.setFormatter(formatter)
+
+# add file handler to logger
+logger.addHandler(file_handler)
 
 
+# Main docstring
 """
 sdg-csv-data-filler is the first package in a data pipeline to take
 data from the SDG data repo and make it exportable as CSVW.
@@ -39,24 +55,28 @@ def entry_point(data_url):
     results = {}
 
     for _url in urls_gen:
+        logger.info(f'{_url}')
         # get the overrides dict for this dataset
         overrides_dict = get_mapping_dicts(overrides_yam, _url)
+        if overrides_dict:
+            logger.info(f'Dictionary for {_url} created. Keys: {overrides_dict.keys()}')
+        else:
+            logger.info(f'Dictionary for {_url} not created.')
         # Create df
         df = csvs_to_pandas(_url)
-
                 #get dataset name
         file_name = f"{re.search(pattern, _url).group(0)}"
 
         if df is None or df.empty: # sometimes no df will be returned so it needs to be skipped
             results[file_name] = False
+            logger.info(f'Dataframe for {_url} is empty')
             continue
         # Apply transformations to the df 
         df = override_writer(df, overrides_dict)
         
-
-
         #Writing the df to csv locally. 
         was_written = write_csv(df, out_path, file_name)
+        logger.info(f'csv for {_url} written = {was_written}')
         results[file_name] = was_written
     # define pattern for name matching outside the for-loop. Used for writing out later
 
