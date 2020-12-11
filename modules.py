@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup as bs
 import random
 import numpy as np
 import logging
+from difflib import get_close_matches
 
 # Gets or creates a logger
 logger = logging.getLogger(__name__)  
@@ -70,8 +71,10 @@ def csvs_to_pandas(url_to_csv):
             pd.DataFrame: a Pandas dataframe of the CSV
     """
     if "no data for this indicator yet" in str(bs(requests.get(url_to_csv).text)):
+        logger.info(f"'no data for this indicator yet' found in {url_to_csv}")
         return None
     else:
+        logger.info(f"returning pd.df for {url_to_csv}")
         return pd.read_csv(url_to_csv)
 
 def prevent_bad_replacement(overrides_dict, df):
@@ -214,8 +217,11 @@ def override_writer(df, overrides_dict):
             if column in ['value','Value']: 
                 continue #skipping because Value is never a key in the dict
 #             import ipdb; ipdb.set_trace()
+
             df[column].replace('nan', np.nan, inplace=True) #replacing string 'nan' with numpy.nan
+            # adding in get_close_matches to cope with spelling changes etc
+            dict_key = get_close_matches(column, overrides_dict.keys(), n=1)
             df[column].fillna(
-                value=overrides_dict[column]['FILL_NA'],
+                value=overrides_dict[dict_key[0]]['FILL_NA'],
                 inplace=True)
     return df

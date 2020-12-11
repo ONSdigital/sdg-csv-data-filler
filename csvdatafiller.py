@@ -64,7 +64,7 @@ def entry_point(data_url):
             logger.info(f'Dictionary for {_url} not created.')
         # Create df
         df = csvs_to_pandas(_url)
-                #get dataset name
+        #get dataset name
         file_name = f"{re.search(pattern, _url).group(0)}"
 
         if df is None or df.empty: # sometimes no df will be returned so it needs to be skipped

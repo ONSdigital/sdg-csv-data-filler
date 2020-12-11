@@ -588,7 +588,7 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_3-1
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Deprivation_quintile
-  Ethnic group:
+  Ethnicity:
     FILL_NA: Ethnic_group_gap_filler_value
     OldValue1: NewValue1
     OldValue2: NewValue2
