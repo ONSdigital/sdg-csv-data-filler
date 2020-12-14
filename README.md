@@ -6,6 +6,16 @@ The script will become part of pipeline which may be integrated into the build s
 
 Later it may be integrated into the build scripts for the [Open SDG platform](https://open-sdg.org/), meaning that countries and cities which use the platform may choose to have the CSVW export function on their site. 
 
+## Schematics of the diagram
+
+Overview of csvdata-filler and CSVW system
+
+![csvdata-filler and CSVW system](https://github.com/jwestw/sdg-csv-data-filler/blob/master/img_for_readme/CSVW%20process%20overview%201.jpg?raw=true)
+
+Overview of csv-data-filler functional processes
+
+![csv-data-filler functional processes](https://github.com/jwestw/sdg-csv-data-filler/blob/master/img_for_readme/CSVW%20process%20overview%202.jpg?raw=true)
+
 ## Functions of the script
 
 The script functions as follows:
