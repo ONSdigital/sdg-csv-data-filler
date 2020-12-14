@@ -10,7 +10,7 @@ Later it may be integrated into the build scripts for the [Open SDG platform](ht
 
 Overview of csvdata-filler and CSVW system
 
-![csvdata-filler and CSVW system](https://github.com/jwestw/sdg-csv-data-filler/blob/master/img_for_readme/CSVW%20process%20overview%201.jpg?raw=true)
+![csvdata-filler and CSVW system](https://github.com/jwestw/sdg-csv-data-filler/blob/master/img_for_readme/CSVW%20process%20overview%203.jpg?raw=true)
 
 Overview of csv-data-filler functional processes
 
