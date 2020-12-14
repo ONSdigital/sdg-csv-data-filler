@@ -6,7 +6,7 @@ The script will become part of pipeline which may be integrated into the build s
 
 Later it may be integrated into the build scripts for the [Open SDG platform](https://open-sdg.org/), meaning that countries and cities which use the platform may choose to have the CSVW export function on their site. 
 
-## Schematics of the diagram
+## Schematic diagrams of the the script
 
 Overview of csvdata-filler and CSVW system
 
