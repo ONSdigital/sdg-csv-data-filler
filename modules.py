@@ -149,24 +149,6 @@ def write_csv(df, out_path, filename):
 
     return status
 
-def delete_random_values(df, holes=20):
-    """
-    Smashes holes (creates gaps) in your dataframe to the approximate number that you
-    request (randint might choose the same cell twice). This function is 
-    just for testing. 
-
-        Parameters:
-            df (pd.Dataframe): pd_df (pd.Dataframe): The pandas data frame of the 
-                in which you want gaps to be made
-        Returns: 
-            pd.Dataframe
-    """
-    for i in range(holes):
-        row = random.randint(1, df.shape[0]-1)
-        col = random.randint(0, df.shape[1]-1)
-        df.iloc[row, col] = float('nan')
-    return df
-
 def override_writer(df, overrides_dict):
     """Takes the data frame and makes column-specific replacements or overrides. 
         If fix_headers is True (False is default), it will change the headers to name in the overides dict. 
