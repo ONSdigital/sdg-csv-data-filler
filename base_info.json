@@ -1,0 +1,22 @@
+{
+    "title": "",
+    "publisher": "SDG",
+    "description": "",
+    "datasetNotes": [""],
+    "published": "",
+    "families": ["SDG"],
+    "extract": {
+        "source": "CSV",
+        "stage": "Documented"
+    },
+    "transform": {
+        "columns": {}
+    },
+    "load": {
+        "publish": false
+    },
+    "sizingNotes": "",
+    "notes": "",
+    "landingPage": "",
+    "dataURL": ""
+}
