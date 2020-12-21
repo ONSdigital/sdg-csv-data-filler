@@ -61,7 +61,7 @@ def entry_point(data_url):
         
         # Use the scraper and the dataframe to create csvw
         # TODO - this could/should probably be a module
-        scraper.set_dataset_id("specift-path-here-please")
+        scraper.set_dataset_id("specify-path-here-please")
         scraper.set_base_uri('http://gss-data.org.uk')
         
         out = Path('out')
