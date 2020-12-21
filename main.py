@@ -5,10 +5,15 @@
 # imports
 import os
 import re
+import json
 
+
+from gssutils import *
+from urllib.parse import urljoin
 
 from modules import (csvs_to_pandas,
-                     get_mapping_dicts, 
+                     get_mapping_dicts,
+                     get_scraper,
                      override_writer,
                      write_csv)
 
@@ -47,8 +52,27 @@ def entry_point(data_url):
         if df is None or df.empty:  # sometimes no df will be returned
             results[file_name] = False
             continue  # empty dfs are skipped
+        
         # Apply transformations to the df
         df = override_writer(df, overrides_dict)
+        
+        # Create a basic "Scraper" class to handle metadata
+        scraper = get_scraper(_url, overrides_dict)
+        
+        # Use the scraper and the dataframe to create csvw
+        # TODO - this could/should probably be a module
+        scraper.set_dataset_id("specift-path-here-please")
+        scraper.set_base_uri('http://gss-data.org.uk')
+        
+        out = Path('out')
+        out.mkdir(exist_ok=True)
+
+        csvw_transform = CSVWMapping()
+        csvw_transform.set_csv(out / file_name)
+        csvw_transform.set_mapping(json.load(open('info.json')))
+        csvw_transform.set_dataset_uri(urljoin(scraper._base_uri, f'data/{scraper._dataset_id}'))
+        csvw_transform.write(out / f'{file_name}-metadata.json')
+        
         # Writing the df to csv locally
         was_written = write_csv(df, out_path, file_name)
         results[file_name] = was_written

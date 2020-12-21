@@ -6,6 +6,8 @@
 import os
 import random
 import re
+import datetime
+import json
 
 # Third party imports
 import numpy as np
@@ -13,6 +15,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 from yaml import safe_load
+from gssutils import Scraper
 
 
 def get_mapping_dicts(path_to_yaml, url):
@@ -204,3 +207,43 @@ def override_writer(df, overrides_dict):
                 value=overrides_dict[column]['FILL_NA'],
                 inplace=True)
     return df
+
+
+# +
+def get_scraper(url, overrides_dict):
+    """
+    Creates a scraper class with a default info.json using the url of the csv in question
+    """
+    with open("base_info.json", "r") as f:
+        info_dict = json.load(f)
+        
+    # Use the url as dataURL
+    info_dict["dataURL"] = url
+    
+    # Take the filename as name, minus extension and with spaces in place of hyphens
+    info_dict["title"] = url.split("/")[-1].split(".")[0].replace("_", " ")
+    
+    # Take the current data as the publication date
+    info_dict["published"] = datetime.datetime.now().strftime("%Y-%m-%d")
+    
+    # Where metadata overrides have been suppied apply them
+    if "metadata" in overrides_dict.keys():
+        if "title" in overrides_dict["metadata"].keys():
+            info_dict["title"] = overrides_dict["metadata"]["title"]
+        if "description" in overrides_dict["metadata"].keys():
+            info_dict["description"] = overrides_dict["metadata"]["description"]
+     
+    # Where a mapping describing the concepts within the columns has been provided, make use of it
+    if "mapping" in overrides_dict.keys():
+        info_dict["transform"]["columns"] = overrides_dict["mapping"]
+    
+    with open("info.json", "w") as f:
+        json.dump(info_dict, f)
+        
+    # use the now dataset-specific info json to create a scraper
+    scraper = Scraper(seed="info.json")
+
+    return scraper
+    
+    
+    
