@@ -224,7 +224,7 @@ def get_scraper(url, overrides_dict):
     info_dict["title"] = url.split("/")[-1].split(".")[0].replace("_", " ")
     
     # Take the current data as the publication date
-    info_dict["published"] = datetime.datetime.now().strftime("%Y-%m-%d")
+    info_dict["published"] = datetime.datetime.now().strftime("%Y-%m-%d") + "T09:30"
     
     # Where metadata overrides have been suppied apply them
     if "metadata" in overrides_dict.keys():

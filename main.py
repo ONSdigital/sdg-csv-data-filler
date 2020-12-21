@@ -67,11 +67,25 @@ def entry_point(data_url):
         out = Path('out')
         out.mkdir(exist_ok=True)
 
+        # Write the csvw
         csvw_transform = CSVWMapping()
         csvw_transform.set_csv(out / file_name)
         csvw_transform.set_mapping(json.load(open('info.json')))
         csvw_transform.set_dataset_uri(urljoin(scraper._base_uri, f'data/{scraper._dataset_id}'))
         csvw_transform.write(out / f'{file_name}-metadata.json')
+        
+        # NOTE:
+        # Title/description is currently being capture by the RDF focussed .trig files in the IDP project.
+        # As that's not appropriate here, we're going to read the csvw back in and insert them directly into the json.
+        with open(out / f'{file_name}-metadata.json', "r") as f:
+            csvw_as_dict = json.load(f)
+   
+        csvw_as_dict["title"] = scraper.title
+        csvw_as_dict["description"] = scraper.description
+        csvw_as_dict["published"] = scraper.dataset.issued.strftime("%Y-%m-%d") + "T09:30"
+        
+        with open(out / f'{file_name}-metadata.json', "w") as f:
+            json.dump(csvw_as_dict, f, indent=4)
         
         # Writing the df to csv locally
         was_written = write_csv(df, out_path, file_name)
@@ -82,3 +96,5 @@ def entry_point(data_url):
 
 if __name__ == "__main__":
     results = entry_point(data_url=remote_data_url)
+
+

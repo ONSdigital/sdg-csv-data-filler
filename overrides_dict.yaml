@@ -95,3 +95,6 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_16-
   fill_gaps: true
   fix_headers: false
   standardise_cells: true
+  metadata:
+      title: "An example of overriding the metadata title of the indicator 16-9-1 dataset"
+      description: "A space to put a more complex description of what this dataset is and what is is about"
