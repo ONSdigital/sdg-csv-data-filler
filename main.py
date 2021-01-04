@@ -7,7 +7,7 @@ import os
 import re
 import json
 
-
+import requests
 from gssutils import *
 from urllib.parse import urljoin
 
@@ -79,10 +79,19 @@ def entry_point(data_url):
         # As that's not appropriate here, we're going to read the csvw back in and insert them directly into the json.
         with open(out / f'{file_name}-metadata.json', "r") as f:
             csvw_as_dict = json.load(f)
+
+        print(">>>>", _url.split("_"))
+
+        indicator = _url.split("_")[-1].split(".")[0]   # get indicator from url
+        meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
+        r = requests.get(meta_url)
+        if r.status_code != 200:
+            raise Exception('Cannot find metadata at url "{}" for source "{}".'.format(meta_url, _url))
+        metadata = r.json() # metadata json response as python dict
    
-        csvw_as_dict["title"] = scraper.title
-        csvw_as_dict["description"] = scraper.description
-        csvw_as_dict["published"] = scraper.dataset.issued.strftime("%Y-%m-%d") + "T09:30"
+        csvw_as_dict["title"] = metadata["indicator_name"]
+        csvw_as_dict["description"] = metadata["other_info"]
+        csvw_as_dict["published"] = metadata["source_release_date_1"]
         
         with open(out / f'{file_name}-metadata.json', "w") as f:
             json.dump(csvw_as_dict, f, indent=4)
@@ -96,5 +105,4 @@ def entry_point(data_url):
 
 if __name__ == "__main__":
     results = entry_point(data_url=remote_data_url)
-
 
