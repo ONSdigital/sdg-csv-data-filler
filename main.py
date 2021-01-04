@@ -80,8 +80,6 @@ def entry_point(data_url):
         with open(out / f'{file_name}-metadata.json', "r") as f:
             csvw_as_dict = json.load(f)
 
-        print(">>>>", _url.split("_"))
-
         indicator = _url.split("_")[-1].split(".")[0]   # get indicator from url
         meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
         r = requests.get(meta_url)
