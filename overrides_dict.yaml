@@ -38,6 +38,20 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_11-
   fill_gaps: true
   fix_headers: false
   standardise_cells: true
+  mapping:
+    Year:
+        dimension: "http://purl.org/linked-data/sdmx/2009/dimension#refPeriod"
+        value: "http://reference.data.gov.uk/id/{+year}"
+    Sex:
+        dimension: "http://purl.org/linked-data/sdmx/2009/dimension#sex"
+        value": "http://purl.org/linked-data/sdmx/2009/code#sex-{sex}"
+    Area:
+        parent: "http://purl.org/linked-data/sdmx/2009/dimension#refArea"
+        value: "http://statistics.data.gov.uk/id/statistical-geography/{area}"
+    Value:
+        unit: "http://gss-data.org.uk/def/concept/measurement-units/deaths"
+        measure: "http://gss-data.org.uk/def/measure/count"
+        datatype: "integer"
 https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_16-9-1.csv:
   Year:
     FILL_NA: Age_gap_filler_value
@@ -78,3 +92,6 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_16-
   fill_gaps: true
   fix_headers: false
   standardise_cells: true
+  metadata:
+      title: "An example of overriding the metadata title of the indicator 16-9-1 dataset"
+      description: "A space to put a more complex description of what this dataset is and what is is about"
