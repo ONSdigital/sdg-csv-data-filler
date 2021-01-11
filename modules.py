@@ -205,7 +205,7 @@ def override_writer(df, overrides_dict):
             orig_dtype = str(df[column].dtype)
             df[column] = df[column].astype(str)
             df[column] = df[column].replace(to_replace=overrides_dict[column])
-            df[column] = df[column].astype(orig_dtype)
+            #df[column] = df[column].astype(orig_dtype)
             df[column] = df[column].map(lambda x: utils.pathify(x) if isinstance(x, str) else x)
    
     return df
@@ -219,22 +219,21 @@ def get_mapping_and_scraper(url, overrides_dict):
     with open("base_info.json", "r") as f:
         info_dict = json.load(f)
         
-    # Use the url as dataURL
+    # Get the metadata from the SDG metadata endpoint
+    indicator = url.split("_")[-1].split(".")[0]   # get indicator from url
+    meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
+    r = requests.get(meta_url)
+    if r.status_code != 200:
+        raise Exception('Cannot find metadata at url "{}" for source "{}".'.format(meta_url, _url))
+    metadata = r.json() # metadata json response as python dict
+        
+    # Populate the info.json
     info_dict["dataURL"] = url
-    
-    # Take the filename as name, minus extension and with spaces in place of hyphens
-    info_dict["title"] = url.split("/")[-1].split(".")[0].replace("_", " ")
-    
-    # Take the current data as the publication date
+    info_dict["title"] = metadata["indicator_name"]
+    info_dict["description"] = metadata["other_info"]
+    info_dict["landingPage"] = metadata["source_url_1"]
     info_dict["published"] = datetime.datetime.now().strftime("%Y-%m-%d") + "T09:30"
     
-    # Where metadata overrides have been suppied apply them
-    if "metadata" in overrides_dict.keys():
-        if "title" in overrides_dict["metadata"].keys():
-            info_dict["title"] = overrides_dict["metadata"]["title"]
-        if "description" in overrides_dict["metadata"].keys():
-            info_dict["description"] = overrides_dict["metadata"]["description"]
-     
     # Where a mapping describing the concepts within the columns has been provided, make use of it
     if "mapping" in overrides_dict.keys():
         info_dict["transform"]["columns"] = overrides_dict["mapping"]

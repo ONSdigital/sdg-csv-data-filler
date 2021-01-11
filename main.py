@@ -6,6 +6,7 @@
 import os
 import re
 import json
+import datetime
 
 import requests
 from gssutils import *
@@ -44,13 +45,15 @@ def entry_point(data_url):
     # create an empty results dict
     results = {}
 
-    for _url in POC3_urls:
+    for url in POC3_urls:
         # get the overrides dict for this dataset
-        overrides_dict = get_mapping_dicts(overrides_yam, _url)
+        overrides_dict = get_mapping_dicts(overrides_yam, url)
+        
         # Create df
-        df = csvs_to_pandas(_url)
+        df = csvs_to_pandas(url)
+        
         # get dataset name
-        file_name = f"{re.search(pattern, _url).group(0)}"
+        file_name = f"{re.search(pattern, url).group(0)}"
         if df is None or df.empty:  # sometimes no df will be returned
             results[file_name] = False
             continue  # empty dfs are skipped
@@ -60,21 +63,10 @@ def entry_point(data_url):
         
         # Create a basic "Scraper" class to handle metadata
         # NOTE - also writes info.json to ./
-        mapping, scraper = get_mapping_and_scraper(_url, overrides_dict)
-        
-        # Get the metadata from the SDG metadata emdpoint
-        indicator = _url.split("_")[-1].split(".")[0]   # get indicator from url
-        meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
-        r = requests.get(meta_url)
-        if r.status_code != 200:
-            raise Exception('Cannot find metadata at url "{}" for source "{}".'.format(meta_url, _url))
-        metadata = r.json() # metadata json response as python dict
-        
-        # TODO
-        # add the required metadata items to scraper and scraper.distribution[0] as required
+        mapping, scraper = get_mapping_and_scraper(url, overrides_dict)
         
         # Create a new cube with mapping
-        cubes.add_cube(scraper, df, metadata["indicator_name"], info_json_dict=mapping)
+        cubes.add_cube(scraper, df, scraper.title, info_json_dict=mapping)
         
     cubes.output_all()
 
@@ -85,4 +77,6 @@ def entry_point(data_url):
 
 if __name__ == "__main__":
     results = entry_point(data_url=remote_data_url)
+
+
 
