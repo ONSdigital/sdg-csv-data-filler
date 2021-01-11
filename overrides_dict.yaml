@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_11-
     to: correct_header_for_Age 
   Unit measure:   
     FILL_NA: Age_gap_filler_value
-    OldValue1: NewValue1
+    (%): (/%)
     OldValue2: NewValue2
     OldValue3: NewValue3
     to: correct_header_for_Age

@@ -15,7 +15,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 from yaml import safe_load
-from gssutils import Scraper
+from gssutils import Scraper, utils
 
 
 def get_mapping_dicts(path_to_yaml, url):
@@ -189,14 +189,6 @@ def override_writer(df, overrides_dict):
     if fix_headers:
         #not used at the moment
         pass
-    if standardise_cells:
-        for column in df.columns:
-            if column in ['value','Value']:
-                continue #skipping because Value is never a key in the dict
-            orig_dtype = str(df[column].dtype)
-            df[column] = df[column].astype(str)
-            df[column] = df[column].replace(to_replace=overrides_dict[column])
-            df[column] = df[column].astype(orig_dtype)
     if fill_gaps:
         for column in df.columns:
             if column in ['value','Value']:
@@ -206,6 +198,16 @@ def override_writer(df, overrides_dict):
             df[column].fillna(
                 value=overrides_dict[column]['FILL_NA'],
                 inplace=True)
+    if standardise_cells:
+        for column in df.columns:
+            if column in ['value','Value']:
+                continue #skipping because Value is never a key in the dict
+            orig_dtype = str(df[column].dtype)
+            df[column] = df[column].astype(str)
+            df[column] = df[column].replace(to_replace=overrides_dict[column])
+            df[column] = df[column].astype(orig_dtype)
+            df[column] = df[column].map(lambda x: utils.pathify(x) if isinstance(x, str) else x)
+   
     return df
 
 
