@@ -8,6 +8,7 @@ import random
 import re
 import datetime
 import json
+from typing import Optional, Dict
 
 # Third party imports
 import numpy as np
@@ -16,6 +17,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from yaml import safe_load
 from gssutils import Scraper, utils
+from gssutils.metadata.dcat import Dataset
 
 
 def get_mapping_dicts(path_to_yaml, url):
@@ -229,10 +231,7 @@ def get_mapping_and_scraper(url, overrides_dict):
         
     # Populate the info.json
     info_dict["dataURL"] = url
-    info_dict["title"] = metadata["indicator_name"]
-    info_dict["description"] = metadata["other_info"]
-    info_dict["landingPage"] = metadata["source_url_1"]
-    info_dict["published"] = datetime.datetime.now().strftime("%Y-%m-%d") + "T09:30"
+
     
     # Where a mapping describing the concepts within the columns has been provided, make use of it
     if "mapping" in overrides_dict.keys():
@@ -240,14 +239,44 @@ def get_mapping_and_scraper(url, overrides_dict):
         mapping = overrides_dict["mapping"]
     else:
         mapping = {}
-    
+
+    dt_now = datetime.datetime.now().strftime("%Y-%m-%d") + "T00:00"
+    info_dict["published"] = dt_now
+
     with open("info.json", "w") as f:
         json.dump(info_dict, f)
         
     # use the now dataset-specific info json to create a scraper
     scraper = Scraper(seed="info.json")
+    dataset: Dataset = scraper.dataset
 
+    dataset.title = metadata.get("indicator_available", metadata.get("indicator_name"))
+
+    description_fields_to_concat = ["computation_definitions", "other_info", "computation_calculations"]
+    description_lines = [metadata.get(f) for f in description_fields_to_concat]
+    dataset.description = "\n".join([l for l in description_lines if l is not None])
+
+    dataset.landingPage = metadata.get("source_url_1")
+
+    def get_maybe_date(metadata: Dict, prop_name: str, or_val: Optional[str] = None) -> Optional[str]:
+        """
+        Parses DD/mm/YYYY date and returns an ISO 8601 datetime string.
+        """
+        maybe_value = metadata.get(prop_name)
+        if not maybe_value:
+            return or_val
+        return datetime.datetime.strptime(maybe_value, "%d/%m/%Y").isoformat()
+
+    dataset.issued = get_maybe_date(metadata, "source_release_date_1", dt_now)
+    pattern = re.compile("^.+_(\\d+)$")
+    source_release_numbers = [int(re.search(pattern, k).group(1)) for k in metadata.keys() if k.startswith("source_release_date_")]
+    dt_modified = get_maybe_date(metadata, f"source_release_date_{max(source_release_numbers)}") if len(source_release_numbers) > 0 else dt_now
+    # dataset.modified = dt_modified # Don't even bother trying to set this as it'll ignore whatever youset.
+
+    dataset.license = "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    dataset.creator = "https://www.ons.gov.uk"
+    dataset.publisher = "https://www.ons.gov.uk"
+    dataset.keyword = ",".join(metadata.get("data_keywords").split(";"))
+    
     return mapping, scraper
-    
-    
     

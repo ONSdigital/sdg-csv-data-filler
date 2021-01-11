@@ -1,0 +1,202 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "tables": [
+    {
+      "url": "proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "year",
+            "titles": "Year",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/year",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/year/{year}"
+          },
+          {
+            "name": "sex",
+            "titles": "Sex",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/sex",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/sex/{sex}"
+          },
+          {
+            "name": "unit_measure",
+            "titles": "Unit measure",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-measure",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/unit-measure/{unit_measure}"
+          },
+          {
+            "name": "observation_status",
+            "titles": "Observation status",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/observation-status",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/observation-status/{observation_status}"
+          },
+          {
+            "name": "unit_multiplier",
+            "titles": "Unit multiplier",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-multiplier",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/unit-multiplier/{unit_multiplier}"
+          },
+          {
+            "name": "value",
+            "titles": "Value",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/value",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/value/{value}"
+          },
+          {
+            "name": "virt_dataset",
+            "virtual": true,
+            "propertyUrl": "qb:dataSet",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dataset"
+          },
+          {
+            "name": "virt_type",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "qb:Observation"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "sex",
+          "unit_measure",
+          "observation_status",
+          "unit_multiplier",
+          "value"
+        ],
+        "aboutUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age/{year}/{sex}/{unit_measure}/{observation_status}/{unit_multiplier}/{value}"
+      }
+    }
+  ],
+  "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#tables",
+  "prov:hadDerivation": {
+    "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dataset",
+    "@type": [
+      "qb:DataSet",
+      "dcat:Dataset"
+    ],
+    "qb:structure": {
+      "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#structure",
+      "@type": "qb:DataStructureDefinition",
+      "qb:component": [
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/year",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/year",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/year"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/Year"
+            },
+            "rdfs:label": "Year"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/year"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/sex",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/sex",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/sex"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/Sex"
+            },
+            "rdfs:label": "Sex"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/sex"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/unit-measure",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-measure",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/unit-measure"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/UnitMeasure"
+            },
+            "rdfs:label": "Unit measure"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-measure"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/observation-status",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/observation-status",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/observation-status"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/ObservationStatus"
+            },
+            "rdfs:label": "Observation status"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/observation-status"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/unit-multiplier",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-multiplier",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/unit-multiplier"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/UnitMultiplier"
+            },
+            "rdfs:label": "Unit multiplier"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/unit-multiplier"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#component/value",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/value",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/value"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#class/Value"
+            },
+            "rdfs:label": "Value"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dimension/value"
+          }
+        }
+      ]
+    }
+  }
+}

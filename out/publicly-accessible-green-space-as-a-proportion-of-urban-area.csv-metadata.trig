@@ -1,0 +1,50 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gdp: <http://gss-data.org.uk/def/gdp#> .
+@prefix gov: <https://www.gov.uk/government/organisations/> .
+@prefix ns1: <http://gss-data.org.uk/graph/gss_data/sdg/sdg-csv-data-filler/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <urn:x-rdflib:> .
+@prefix pmd: <http://publishmydata.com/def/dataset#> .
+@prefix pmdcat: <http://publishmydata.com/pmdcat#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix theme: <http://gss-data.org.uk/def/concept/statistics-authority-themes/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:publicly-accessible-green-space-as-a-proportion-of-urban-area-metadata {
+    <http://gss-data.org.uk/catalog/datasets> a dcat:Catalog ;
+        dcat:record <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area-catalog-record> .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dataset> a pmdcat:DataCube .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area-catalog-entry> a pmdcat:Dataset ;
+        rdfs:label "Publicly accessible green space as a proportion of urban area"@en ;
+        gdp:family gdp:sdg ;
+        pmdcat:datasetContents <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dataset> ;
+        pmdcat:graph ns1:publicly-accessible-green-space-as-a-proportion-of-urban-area ;
+        dct:creator <https://www.ons.gov.uk> ;
+        dct:description """Functional green space is defined as any green space that has a specific function in its use, for example, public parks or gardens, playing fields, golf courses, allotments etc. These spaces contain natural land cover, and can also include some blue space, for example, a park that has a lake within it. Publicly accessible functional green space is defined as a subset of functional green space, it removes green spaces expected to have restriction to entry, for example, golf courses. Restrictions to entry limits the ability of the green space to provide cultural services. Publicly accessible green space includes parks and public gardens, playing fields, cemetery and religious grounds.
+Estimates for the extent of green space in urban areas have been developed through collaborative work between the Office for National Statistics (ONS) and the Ordnance Survey (OS) .  This indicator is being used as an approximation of the UN SDG Indicator. Where possible, we will work to identify or develop UK data to meet the global indicator specification. This indicator has been identified in collaboration with topic experts.
+Extent of publicly accessible green space (hectares)/extent of urban area (hectares)*100."""@en ;
+        dct:issued "2019-08-08T00:00:00" ;
+        dct:license <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
+        dct:modified "2021-01-11T15:17:02.905567+00:00"^^xsd:dateTime ;
+        dct:publisher <https://www.ons.gov.uk> ;
+        dct:title "Publicly accessible green space as a proportion of urban area"@en ;
+        void:sparqlEndpoint <http://gss-data.org.uk/sparql> ;
+        dcat:keyword "Public, Open Space, Habitat, Environment, Cities"@en ;
+        dcat:landingPage <https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/uknaturalcapital/urbanaccounts#extent-of-green-and-blue-spaces-in-urban-areas-in-great-britain> .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area-catalog-record> a dcat:CatalogRecord ;
+        rdfs:label "Publicly accessible green space as a proportion of urban area Catalog Record"@en ;
+        pmdcat:metadataGraph ns1:publicly-accessible-green-space-as-a-proportion-of-urban-area-metadata ;
+        dct:issued "2019-08-08T00:00:00" ;
+        dct:modified "2021-01-11T15:17:02.905567+00:00"^^xsd:dateTime ;
+        ns2:primaryTopic <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area-catalog-entry> .
+}
+

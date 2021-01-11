@@ -1,0 +1,228 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "tables": [
+    {
+      "url": "publicly-accessible-green-space-as-a-proportion-of-urban-area.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "year",
+            "titles": "Year",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/year",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/year/{year}"
+          },
+          {
+            "name": "country",
+            "titles": "Country",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/country",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/country/{country}"
+          },
+          {
+            "name": "observation_status",
+            "titles": "Observation status",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/observation-status",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/observation-status/{observation_status}"
+          },
+          {
+            "name": "unit_multiplier",
+            "titles": "Unit multiplier",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-multiplier",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/unit-multiplier/{unit_multiplier}"
+          },
+          {
+            "name": "unit_measure",
+            "titles": "Unit measure",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-measure",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/unit-measure/{unit_measure}"
+          },
+          {
+            "name": "geocode",
+            "titles": "GeoCode",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/geocode",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/geocode/{geocode}"
+          },
+          {
+            "name": "value",
+            "titles": "Value",
+            "datatype": "string",
+            "propertyUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/value",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#concept/value/{value}"
+          },
+          {
+            "name": "virt_dataset",
+            "virtual": true,
+            "propertyUrl": "qb:dataSet",
+            "valueUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dataset"
+          },
+          {
+            "name": "virt_type",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "qb:Observation"
+          }
+        ],
+        "primaryKey": [
+          "year",
+          "country",
+          "observation_status",
+          "unit_multiplier",
+          "unit_measure",
+          "geocode",
+          "value"
+        ],
+        "aboutUrl": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area/{year}/{country}/{observation_status}/{unit_multiplier}/{unit_measure}/{geocode}/{value}"
+      }
+    }
+  ],
+  "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#tables",
+  "prov:hadDerivation": {
+    "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dataset",
+    "@type": [
+      "qb:DataSet",
+      "dcat:Dataset"
+    ],
+    "qb:structure": {
+      "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#structure",
+      "@type": "qb:DataStructureDefinition",
+      "qb:component": [
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/year",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/year",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/year"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/Year"
+            },
+            "rdfs:label": "Year"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/year"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/country",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/country",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/country"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/Country"
+            },
+            "rdfs:label": "Country"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/country"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/observation-status",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/observation-status",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/observation-status"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/ObservationStatus"
+            },
+            "rdfs:label": "Observation status"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/observation-status"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/unit-multiplier",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-multiplier",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/unit-multiplier"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/UnitMultiplier"
+            },
+            "rdfs:label": "Unit multiplier"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-multiplier"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/unit-measure",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-measure",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/unit-measure"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/UnitMeasure"
+            },
+            "rdfs:label": "Unit measure"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/unit-measure"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/geocode",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/geocode",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/geocode"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/Geocode"
+            },
+            "rdfs:label": "GeoCode"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/geocode"
+          }
+        },
+        {
+          "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#component/value",
+          "qb:dimension": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/value",
+            "@type": "qb:DimensionProperty",
+            "qb:codeList": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler#scheme/value"
+            },
+            "rdfs:range": {
+              "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#class/Value"
+            },
+            "rdfs:label": "Value"
+          },
+          "@type": "qb:ComponentSpecification",
+          "qb:componentProperty": {
+            "@id": "http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/publicly-accessible-green-space-as-a-proportion-of-urban-area#dimension/value"
+          }
+        }
+      ]
+    }
+  }
+}

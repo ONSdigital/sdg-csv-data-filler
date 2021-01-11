@@ -1,0 +1,48 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gdp: <http://gss-data.org.uk/def/gdp#> .
+@prefix gov: <https://www.gov.uk/government/organisations/> .
+@prefix ns1: <http://gss-data.org.uk/graph/gss_data/sdg/sdg-csv-data-filler/> .
+@prefix ns2: <http://xmlns.com/foaf/0.1/> .
+@prefix ns3: <urn:x-rdflib:> .
+@prefix pmd: <http://publishmydata.com/def/dataset#> .
+@prefix pmdcat: <http://publishmydata.com/pmdcat#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix theme: <http://gss-data.org.uk/def/concept/statistics-authority-themes/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-metadata {
+    <http://gss-data.org.uk/catalog/datasets> a dcat:Catalog ;
+        dcat:record <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-catalog-record> .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dataset> a pmdcat:DataCube .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-catalog-entry> a pmdcat:Dataset ;
+        rdfs:label "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age"@en ;
+        gdp:family gdp:sdg ;
+        pmdcat:datasetContents <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age#dataset> ;
+        pmdcat:graph ns1:proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age ;
+        dct:creator <https://www.ons.gov.uk> ;
+        dct:description "Data follows the UN specification for this indicator. This indicator has been identified in collaboration with topic experts."@en ;
+        dct:issued "2019-12-01T00:00:00" ;
+        dct:license <http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> ;
+        dct:modified "2021-01-11T15:18:40.012493+00:00"^^xsd:dateTime ;
+        dct:publisher <https://www.ons.gov.uk> ;
+        dct:title "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age"@en ;
+        void:sparqlEndpoint <http://gss-data.org.uk/sparql> ;
+        dcat:keyword "Births, registrations"@en ;
+        dcat:landingPage <https://data.unicef.org/topic/child-protection/birth-registration/> .
+
+    <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-catalog-record> a dcat:CatalogRecord ;
+        rdfs:label "Proportion of children under 5 years of age whose births have been registered with a civil authority, by age Catalog Record"@en ;
+        pmdcat:metadataGraph ns1:proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-metadata ;
+        dct:issued "2019-12-01T00:00:00" ;
+        dct:modified "2021-01-11T15:18:40.012493+00:00"^^xsd:dateTime ;
+        ns2:primaryTopic <http://gss-data.org.uk/data/gss_data/sdg/sdg-csv-data-filler/proportion-of-children-under-5-years-of-age-whose-births-have-been-registered-with-a-civil-authority-by-age-catalog-entry> .
+}
+
