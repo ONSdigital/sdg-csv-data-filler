@@ -210,7 +210,7 @@ def override_writer(df, overrides_dict):
 
 
 # +
-def get_scraper(url, overrides_dict):
+def get_mapping_and_scraper(url, overrides_dict):
     """
     Creates a scraper class with a default info.json using the url of the csv in question
     """
@@ -236,6 +236,9 @@ def get_scraper(url, overrides_dict):
     # Where a mapping describing the concepts within the columns has been provided, make use of it
     if "mapping" in overrides_dict.keys():
         info_dict["transform"]["columns"] = overrides_dict["mapping"]
+        mapping = overrides_dict["mapping"]
+    else:
+        mapping = {}
     
     with open("info.json", "w") as f:
         json.dump(info_dict, f)
@@ -243,7 +246,7 @@ def get_scraper(url, overrides_dict):
     # use the now dataset-specific info json to create a scraper
     scraper = Scraper(seed="info.json")
 
-    return scraper
+    return mapping, scraper
     
     
     
