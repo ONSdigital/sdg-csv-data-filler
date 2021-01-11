@@ -13,7 +13,7 @@ from urllib.parse import urljoin
 
 from modules import (csvs_to_pandas,
                      get_mapping_dicts,
-                     get_scraper,
+                     get_mapping_and_scraper,
                      override_writer,
                      write_csv)
 
@@ -32,6 +32,8 @@ overrides_yam = (os.path.join(cwd, "overrides_dict.yaml"))
 POC3_urls = ['https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_11-7-1.csv',
                 'https://raw.githubusercontent.com/ONSdigital/sdg-data/develop/data/indicator_16-9-1.csv']
 
+# +
+cubes = Cubes("base_info.json")
 
 def entry_point(data_url):
 
@@ -57,49 +59,29 @@ def entry_point(data_url):
         df = override_writer(df, overrides_dict)
         
         # Create a basic "Scraper" class to handle metadata
-        scraper = get_scraper(_url, overrides_dict)
+        # NOTE - also writes info.json to ./
+        mapping, scraper = get_mapping_and_scraper(_url, overrides_dict)
         
-        # Use the scraper and the dataframe to create csvw
-        # TODO - this could/should probably be a module
-        scraper.set_dataset_id("specify-path-here-please")
-        scraper.set_base_uri('http://gss-data.org.uk')
-        
-        out = Path('out')
-        out.mkdir(exist_ok=True)
-
-        # Write the csvw
-        csvw_transform = CSVWMapping()
-        csvw_transform.set_csv(out / file_name)
-        csvw_transform.set_mapping(json.load(open('info.json')))
-        csvw_transform.set_dataset_uri(urljoin(scraper._base_uri, f'data/{scraper._dataset_id}'))
-        csvw_transform.write(out / f'{file_name}-metadata.json')
-        
-        # NOTE:
-        # Title/description is currently being capture by the RDF focussed .trig files in the IDP project.
-        # As that's not appropriate here, we're going to read the csvw back in and insert them directly into the json.
-        with open(out / f'{file_name}-metadata.json', "r") as f:
-            csvw_as_dict = json.load(f)
-
+        # Get the metadata from the SDG metadata emdpoint
         indicator = _url.split("_")[-1].split(".")[0]   # get indicator from url
         meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
         r = requests.get(meta_url)
         if r.status_code != 200:
             raise Exception('Cannot find metadata at url "{}" for source "{}".'.format(meta_url, _url))
         metadata = r.json() # metadata json response as python dict
-   
-        csvw_as_dict["title"] = metadata["indicator_name"]
-        csvw_as_dict["description"] = metadata["other_info"]
-        csvw_as_dict["published"] = metadata["source_release_date_1"]
         
-        with open(out / f'{file_name}-metadata.json', "w") as f:
-            json.dump(csvw_as_dict, f, indent=4)
+        # TODO
+        # add the required metadata items to scraper and scraper.distribution[0] as required
         
-        # Writing the df to csv locally
-        was_written = write_csv(df, out_path, file_name)
-        results[file_name] = was_written
+        # Create a new cube with mapping
+        cubes.add_cube(scraper, df, metadata["indicator_name"], info_json_dict=mapping)
+        
+    cubes.output_all()
 
     return results
 
+
+# -
 
 if __name__ == "__main__":
     results = entry_point(data_url=remote_data_url)
