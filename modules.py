@@ -217,32 +217,40 @@ def override_writer(df, overrides_dict):
 def get_mapping_and_scraper(url, overrides_dict):
     """
     Creates a scraper class with a default info.json using the url of the csv in question
+        Where a mapping describing the concepts within the columns has been provided, 
+        the function will make use of it
     """
+    # create dict from the base_info.json (which is a template for the metadat json)
     with open("base_info.json", "r") as f:
         info_dict = json.load(f)
         
     # Get the metadata from the SDG metadata endpoint
-    indicator = url.split("_")[-1].split(".")[0]   # get indicator from url
+    indicator = url.split("_")[-1].split(".")[0]   # get indicator name from url
+    # use indicator name to define the SDG metadata url
     meta_url = "https://sdgdata.gov.uk/sdg-data/en/meta/{}.json".format(indicator)
+    # fetch SDG metadata
     r = requests.get(meta_url)
     if r.status_code != 200:
         raise Exception('Cannot find metadata at url "{}" for source "{}".'.format(meta_url, _url))
-    metadata = r.json() # metadata json response as python dict
+    # Put metadata json response into Python dict
+    metadata = r.json() 
         
-    # Populate the info.json
+    # Populate the info dictionary
     info_dict["dataURL"] = url
 
-    
-    # Where a mapping describing the concepts within the columns has been provided, make use of it
+    # If there is mapping defined in overrides_dict.yaml it will 
     if "mapping" in overrides_dict.keys():
         info_dict["transform"]["columns"] = overrides_dict["mapping"]
         mapping = overrides_dict["mapping"]
     else:
         mapping = {}
 
+    # Getting the time now as a string, according to the Y-M-D format 
+    # TODO: Why is "T00:00" needed?
     dt_now = datetime.datetime.now().strftime("%Y-%m-%d") + "T00:00"
     info_dict["published"] = dt_now
 
+    # Writing out the info dict to json
     with open("info.json", "w") as f:
         json.dump(info_dict, f)
         
@@ -250,14 +258,18 @@ def get_mapping_and_scraper(url, overrides_dict):
     scraper = Scraper(seed="info.json")
     dataset: Dataset = scraper.dataset
 
+    # setting dataset parameter "title" from values pulled from sdg metadata
     dataset.title = metadata.get("indicator_available", metadata.get("indicator_name"))
 
     description_fields_to_concat = ["computation_definitions", "other_info", "computation_calculations"]
     description_lines = [metadata.get(f) for f in description_fields_to_concat]
+    # setting dataset parameter "description" from values pulled from sdg metadata
     dataset.description = "\n".join([l for l in description_lines if l is not None])
 
+    # setting dataset parameter "landingPage" from values pulled from sdg metadata
     dataset.landingPage = metadata.get("source_url_1")
 
+    # TODO: Is get_maybe_date func meant to be defined inside this get_mapping_and_scraper function?
     def get_maybe_date(metadata: Dict, prop_name: str, or_val: Optional[str] = None) -> Optional[str]:
         """
         Parses DD/mm/YYYY date and returns an ISO 8601 datetime string.
@@ -267,15 +279,22 @@ def get_mapping_and_scraper(url, overrides_dict):
             return or_val
         return datetime.datetime.strptime(maybe_value, "%d/%m/%Y").isoformat()
 
+    # setting dataset parameter "issued" from values pulled from sdg metadata
+    # assigns the dt_now string if no relase data in metadata
     dataset.issued = get_maybe_date(metadata, "source_release_date_1", dt_now)
     pattern = re.compile("^.+_(\\d+)$")
     source_release_numbers = [int(re.search(pattern, k).group(1)) for k in metadata.keys() if k.startswith("source_release_date_")]
     dt_modified = get_maybe_date(metadata, f"source_release_date_{max(source_release_numbers)}") if len(source_release_numbers) > 0 else dt_now
     # dataset.modified = dt_modified # Don't even bother trying to set this as it'll ignore whatever youset.
 
+    # TODO: Are 
+    # Hardcoding 'license' 'create' 'publisher' properties of dataset. 
     dataset.license = "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
     dataset.creator = "https://www.ons.gov.uk"
     dataset.publisher = "https://www.ons.gov.uk"
+    
+    # setting dataset parameter "keyword" from values pulled from sdg metadata
+    # replacing ";" with "," in the list of keywords
     dataset.keyword = ",".join(metadata.get("data_keywords").split(";"))
     
     return mapping, scraper
