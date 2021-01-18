@@ -2,3 +2,4 @@ wheel
 bs4
 pyyaml
 -e git+https://github.com/GSS-Cogs/gss-utils@v0.10.2#egg=gssutils
+pandas

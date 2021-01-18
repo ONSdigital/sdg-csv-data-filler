@@ -1,9 +1,9 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
-    "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count",
-    "url": "count.csv",
-    "rdfs:label": "Count",
-    "dc:title": "Count",
+    "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country",
+    "url": "country.csv",
+    "rdfs:label": "Country",
+    "dc:title": "Country",
     "tableSchema": {
         "columns": [
             {
@@ -32,7 +32,7 @@
                 },
                 "required": false,
                 "propertyUrl": "skos:broader",
-                "valueUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/count/{parent_notation}"
+                "valueUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/country/{parent_notation}"
             },
             {
                 "titles": "Sort Priority",
@@ -49,14 +49,14 @@
             {
                 "virtual": true,
                 "propertyUrl": "skos:inScheme",
-                "valueUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/count"
+                "valueUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/country"
             }
         ],
         "primaryKey": "notation",
-        "aboutUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/count/{notation}"
+        "aboutUrl": "http://gss-data.org.uk/def/sdg/concept-scheme/country/{notation}"
     },
     "prov:hadDerivation": {
-        "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count",
+        "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country",
         "@type": [
             "skos:ConceptScheme",
             "http://publishmydata.com/pmdcat#ConceptScheme"
@@ -64,20 +64,20 @@
     },
     "rdfs:seeAlso": [
         {
-            "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count/dataset",
+            "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country/dataset",
             "@type": [
                 "dcat:Dataset",
                 "http://publishmydata.com/pmdcat#Dataset"
             ],
             "http://publishmydata.com/pmdcat#datasetContents": {
-                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count"
+                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country"
             },
             "http://publishmydata.com/pmdcat#graph": {
-                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count"
+                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country"
             },
-            "rdfs:label": "Count",
-            "dc:title": "Count",
-            "rdfs:comment": "Dataset representing the 'Count' code list.",
+            "rdfs:label": "Country",
+            "dc:title": "Country",
+            "rdfs:comment": "Dataset representing the 'Country' code list.",
             "dc:license": {
                 "@id": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
             },
@@ -102,27 +102,27 @@
         {
             "@id": "http://gss-data.org.uk/catalog/vocabularies",
             "dcat:record": {
-                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count/catalog-record"
+                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country/catalog-record"
             }
         },
         {
-            "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count/catalog-record",
+            "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country/catalog-record",
             "@type": "dcat:CatalogRecord",
             "foaf:primaryTopic": {
-                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count/dataset"
+                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country/dataset"
             },
             "http://publishmydata.com/pmdcat#metadataGraph": {
-                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/count"
+                "@id": "http://gss-data.org.uk/def/sdg/concept-scheme/country"
             },
-            "dc:title": "Count Catalog Record",
-            "rdfs:label": "Count Catalog Record",
+            "dc:title": "Country Catalog Record",
+            "rdfs:label": "Country Catalog Record",
             "dc:issued": {
                 "@type": "dateTime",
-                "@value": "2021-01-11T16:30:33.463662"
+                "@value": "2021-01-18T11:14:21.598607"
             },
             "dc:modified": {
                 "@type": "dateTime",
-                "@value": "2021-01-11T16:30:33.463662"
+                "@value": "2021-01-18T11:14:21.598607"
             }
         }
     ]

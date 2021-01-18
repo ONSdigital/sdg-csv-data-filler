@@ -7,6 +7,10 @@
   ],
   "tables": [
     {
+      "url": "codelists/country.csv",
+      "tableSchema": "codelists/country.csv-metadata.json"
+    },
+    {
       "url": "publicly-accessible-green-space-as-a-proportion-of-urban-area.csv",
       "tableSchema": {
         "columns": [
