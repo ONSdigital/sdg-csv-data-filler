@@ -6,6 +6,19 @@ The script will become part of pipeline which may be integrated into the build s
 
 Later it may be integrated into the build scripts for the [Open SDG platform](https://open-sdg.org/), meaning that countries and cities which use the platform may choose to have the CSVW export function on their site. 
 
+# What has been done so far
+
+This work was carried out by James Westwood with a lot of help from the Integrated Data Platform Dissemination (IDP-D) team (formerly Connected Open Government Statistics (COGS)). The primary function of the script is to process the SDG data for publication as CSV on the web (CSVW) formatted data on the IDP platform. 
+
+SDG data is published CSV files in the Tidy Data arrangement which is a good starting point for this script to work from, but not all the terms in the data are compatible with CSVW and no gaps would be tolerated so they needed to be filled – hence the name of the script that James created was the “sdg-csv-data-filler”. 
+
+CSVW is a World Wide Web Consortium (W3C) data format which has a CSV published along side its metadata in json format.  The IPD-D team have a data pipeline to transform CSV data into CSVW, RDF, Data Cubed and the new international standard for the exchange of statistical data SDMX. James created a script to apply changes to the SDG CSV data to make it suitable for the IPD pipeline. 
+
+On 11th Jan 2021 James worked with Rob Barry and Michael Adams from the IPD -D team to further develop the script he had built. The script so far can be seen on the Proof of Concept Branch 3 or POC3 branch of the repository.
+
+The script was then cloned and modified to be compatible with the Jenkins workflow that the IDP-D team has set up. Two datasets were published on the IDP-D platform (know as PMD, Publish My Data) as a proof of concept from a data producer's site to finish on the PMD platform. 
+
+
 ## Schematic diagrams of the the script
 
 Overview of csvdata-filler and CSVW system
