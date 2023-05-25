@@ -56,7 +56,7 @@ six==1.15.0
 soupsieve==2.0.1
 terminado==0.8.3
 testpath==0.4.4
-tornado==6.0.4
+tornado==6.3.2
 traitlets==4.3.3
 urllib3==1.25.10
 # wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
